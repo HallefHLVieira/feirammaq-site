@@ -3101,6 +3101,22 @@ textarea.form-control-lg {
   --bs-gradient: none;
 }
 
+.btn-outline-whatsapp {
+  background-color: #23C53B;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50px;
+}
+
+.btn-outline-whatsapp:hover {
+  background-color: #23C53B;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50px;
+}
+
+
+
 .btn-outline-dark {
   --bs-btn-color: #212529;
   --bs-btn-border-color: #212529;
@@ -10883,6 +10899,15 @@ html {
   font-size: 1.25rem;
 }
 
+.btn-xl-whatsapp {
+  padding: 1rem 1.75rem;
+  font-size: 1.25rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-xl-whatsapp:hover {
+  transform: scale(1.1);
+}
 .btn-social {
   border-radius: 100%;
   display: inline-flex;

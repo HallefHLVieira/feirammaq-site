@@ -11083,6 +11083,11 @@ html {
   color: #343a40;
 }
 
+/* Oculta o botão do desktop em telas menores */
+.wpp-desktop {
+  display: none;
+}
+
 .wpp-floating {
   position: fixed;
   bottom: 20px;
@@ -11101,14 +11106,18 @@ html {
   z-index: 1000;
 }
 
-.wpp-floating:hover {
-  transform: scale(1.1);
-  background-color: #1ebe57;
-}
-
-/* Somente para telas menores */
+/* Somente para telas maiores (desktop) */
 @media (min-width: 768px) {
   .wpp-floating {
       display: none;
   }
+  .wpp-desktop {
+      display: inline-block;
+  }
+}
+
+
+
+.container-height {
+  height: 300px;
 }

@@ -46,73 +46,106 @@
                 </div>
             </div>
         </nav>
-        <!-- Masthead-->
+
+        <!-- Slider-->
         <header class="masthead bg-light text-white text-center">
             <div id="carouselFeiraMaqAuto" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="5000">
-                    <img 
-                    src="assets/img/slides/slide-1-feiramaq-1920-x-500-px.webp" 
-                    class="d-block w-100" 
-                    alt="Banner de slide 1 - Máquinas e ferramentas para aluguel">
-                  </div>
-                  <div class="carousel-item" data-bs-interval="5000">
-                    <img 
-                    src="assets/img/slides/slide-2-feiramaq-1920-x-500-px-1.webp" 
-                    class="d-block w-100" 
-                    alt="Banner de slide 2 - Betoneira amarela para alugar">
-                  </div>
-                  <div class="carousel-item" data-bs-interval="5000">
-                    <img 
-                    src="assets/img/slides/slide-3-feiramaq-1920-x-500-px-2.webp" 
-                    class="d-block w-100" 
-                    alt="Banner de slide 3 - Andaimes e containers para alugar">
-                  </div>
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img 
+                        src="assets/img/slides/slide-1-feiramaq-1920-x-500-px.webp" 
+                        class="d-block w-100" 
+                        alt="Banner de slide 1 - Máquinas e ferramentas para aluguel">
+                    </div>
+                    
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img 
+                        src="assets/img/slides/slide-2-feiramaq-1920-x-500-px-1.webp" 
+                        class="d-block w-100" 
+                        alt="Banner de slide 2 - Betoneira amarela para alugar">
+                    </div>
+                    
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img 
+                        src="assets/img/slides/slide-3-feiramaq-1920-x-500-px-2.webp" 
+                        class="d-block w-100" 
+                        alt="Banner de slide 3 - Andaimes e containers para alugar">
+                    </div>
                 </div>
+
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselFeiraMaqAuto" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
+                
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselFeiraMaqAuto" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
-              </div>
+            </div>
         </header>
        
-         <!-- About Section-->
+         <!-- ABOUT SECTION -->
          <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
-                <!-- About Section Heading-->
+                <!-- ABOUT SECTION HEADER -->
                 <h2 class="page-section-heading text-center text-uppercase text-white">Sobre a FeiraMaq</h2>
                 <br>
                     <div class="row justify-content-center">
+                       <!-- SLIDER LOJAS COLUNM -->
                         <div class="col-md-4 col-lg-4 mb-5">
-                            <img class="img-fluid rounded container-height" src="assets/img/img-empresa.webp" alt="Foto da loja">
+                            <!-- CAROUSEL TO LOJAS -->
+                            <div id="carouselLojas" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="5000">
+                                        <img 
+                                        class="img-fluid rounded container-height" 
+                                        src="assets/img/img-empresa.webp" 
+                                        alt="Foto da loja de Feira de Santana">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="5000">
+                                        <img 
+                                        class="img-fluid rounded container-height" 
+                                        src="assets/img/saj.webp" 
+                                        alt="Foto da loja de Feira de Santana">
+                                    </div>                
+                                </div>
+                
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselLojas" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselLojas" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
                         </div>
                         
+                        <!-- CARD MISSION - VISION - ABOUT -->
                         <div class="col-md-6 col-lg-6 mb-5">
                             <div class="card container-height" style="border: none; overflow-y: auto;">
                                 <ul class="nav nav-tabs card-header-tabs w-100" style="margin: auto;" id="myTab" role="tablist">
-                                    <!-- Botão da ABA 1 -->
+                                    <!-- ABOUT -->
                                     <li class="nav-item" role="presentation">
                                         <a class="nav-link show active" id="home-tab" data-bs-toggle="tab" href="#about-feira" role="tab" aria-controls="home" aria-selected="false">Feira Maq</a>
                                     </li>
-                                    <!-- Botão da ABA 2 -->
+                                    <!-- MISSION -->
                                     <li class="nav-item" role="presentation">
                                         <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#mission" role="tab" aria-controls="profile" aria-selected="false">Missão</a>
                                     </li>
-                                    <!-- Botão da ABA 3 -->
+                                    <!-- VISION -->
                                     <li class="nav-item" role="presentation">
                                         <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#vision" role="tab" aria-controls="contact" aria-selected="false">Visão</a>
                                     </li>
                                 </ul>
 
-                                <!-- Conteudo das ABAS -->
+                                <!-- ABAS CONTENT -->
                                 <div class="card-body">
                                     
                                     <div class="tab-content" id="myTabContent">
-                                        <!-- ABA 1 -->
+                                        <!-- ABOUT -->
                                         <div class="tab-pane fade show active" id="about-feira" role="tabpanel" aria-labelledby="home-tab">
                                             <div class="ms-auto">
                                                 <p class="lead text-color-grey text-wrap mb-3">
@@ -126,7 +159,7 @@
                                             </div>
                                         </div>
 
-                                        <!-- ABA 2 -->
+                                        <!-- MISSION -->
                                         <div class="tab-pane fade" id="mission" role="tabpanel" aria-labelledby="profile-tab">
                                             <div class="ms-auto">
                                                 <p class="lead text-color-grey text-wrap mb-3">
@@ -135,7 +168,7 @@
                                             </div>
                                         </div>
 
-                                        <!-- ABA 3 -->
+                                        <!-- VISION -->
                                         <div class="tab-pane fade" id="vision" role="tabpanel" aria-labelledby="contact-tab">
                                             <div class="ms-auto">
                                                 <p class="lead text-color-grey text-wrap mb-3">
@@ -149,9 +182,9 @@
                         </div>
                     </div>  
                
-                <!-- Botão entre em contato -->
+                <!-- CONTACT BTN -->
                 <div class="row justify-content-center">
-                    <!-- Fale conosco Feira de Santana -->
+                    <!-- WPP BTN -->
                    <div class="text-center mt-4 text-wrap" data-bs-toggle="modal" data-bs-target="#wppModal">
                        <div class="btn btn-xl-whatsapp btn-outline-whatsapp">
                         <i class="fa-brands fa-whatsapp"></i>
@@ -208,9 +241,9 @@
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                <div class="portfolio-item-caption-content text-center text-white">Andaimes</div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/andaimes.webp" alt="Construtores tabalhando sobre andaimes" />
                         </div>
                     </div>
                     <!-- Portfolio Containers 2-->
@@ -406,7 +439,7 @@
             </div>
         </div>
 
-        <!-- Portfolio Modal 1-->
+        <!-- Andaimes Modal 1-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
@@ -416,20 +449,362 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Andaimes</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
+
+                                    <!-- PRODUTO 1 -->
+                                    <p><b>Andaime Fachadeiro Peso: 18KG / 21KG</b></p>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/andaimes/19-andaime-fachadeiro.webp" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">O andaime fachadeiro é ideal para trabalhos em fachadas de edifícios e construções de grande altura. Com estrutura robusta e segura, oferece estabilidade e facilidade de acesso a diferentes níveis. Seu design permite fácil montagem e transporte, sendo perfeito para serviços de pintura, limpeza, manutenção e reforma de fachadas, proporcionando segurança e eficiência.</p>
+                                    <div class="row justify-content-center">
+                                        <a class="col-lg-5 col-md-5 mb-2 mx-5 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em Feira
+                                        </a>
+        
+                                        <a class="col-lg-5 col-md-5 mb-2 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em S. Antônio
+                                        </a>
+                                    </div>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+
+                                    <!-- PRODUTO 2 -->
+                                    <p><b>Andaime Peso: 8KG / 12KG</b></p>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/andaimes/01-andaime.webp" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Andaime tubular com 1,0m de altura, ideal para serviços em obras, reformas e construções. Fabricado em material resistente e com encaixe seguro, proporciona estabilidade e segurança para trabalhos em altura. Fácil de montar, desmontar e armazenar. Perfeito para profissionais que buscam eficiência e durabilidade.</p>
+                                      <!-- WPP BTN -->
+                                    <div class="row justify-content-center">
+                                        <a class="col-lg-5 col-md-5 mb-2 mx-5 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em Feira
+                                        </a>
+        
+                                        <a class="col-lg-5 col-md-5 mb-2 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em S. Antônio
+                                        </a>
+                                    </div>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+
+                                    <!-- PRODUTO 3 -->
+                                    <p><b>Barra de Ancoragem Peso: 1KG</b></p>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/andaimes/24-barra-de-ancoragem.webp" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">A barra de ancoragem é um componente essencial para garantir a fixação segura de andaimes e estruturas temporárias. Fabricada em material resistente, ela proporciona estabilidade ao ancorar o andaime a superfícies fixas, como paredes ou fundações. Ideal para uso em obras de grande porte, aumenta a segurança e a resistência da estrutura durante a execução de trabalhos em altura. 40 mini.</p>
+                                      <!-- WPP BTN -->
+                                    <div class="row justify-content-center">
+                                        <a class="col-lg-5 col-md-5 mb-2 mx-5 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em Feira
+                                        </a>
+        
+                                        <a class="col-lg-5 col-md-5 mb-2 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em S. Antônio
+                                        </a>
+                                    </div>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+
+                                    <!-- PRODUTO 4-->
+                                    <p><b>Barra de Ligação Peso: 3KG</b></p>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/andaimes/20-barra-de-ligacao.webp" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">A barra de ligação é um componente essencial para garantir a união e estabilidade entre as partes do andaime. Fabricada com material resistente, ela proporciona uma conexão segura entre as seções do andaime, aumentando a rigidez e a segurança da estrutura. Ideal para montagem e ajustes de andaimes em diversos tipos de obras e reformas.</p>
+                                      <!-- WPP BTN -->
+                                    <div class="row justify-content-center">
+                                        <a class="col-lg-5 col-md-5 mb-2 mx-5 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em Feira
+                                        </a>
+        
+                                        <a class="col-lg-5 col-md-5 mb-2 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em S. Antônio
+                                        </a>
+                                    </div>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+
+                                    <!-- PRODUTO 5 -->
+                                    <p><b>Escada 2m – Peso: 14KG</b></p>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/andaimes/02-escada-2m.webp" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Escada de andaime com 2m de altura, desenvolvida para facilitar o acesso seguro e eficiente a níveis elevados. Fabricada com materiais robustos e antiderrapantes, oferece estabilidade e praticidade na montagem. Ideal para obras, reformas e serviços em altura.</p>
+                                      <!-- WPP BTN -->
+                                    <div class="row justify-content-center">
+                                        <a class="col-lg-5 col-md-5 mb-2 mx-5 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em Feira
+                                        </a>
+        
+                                        <a class="col-lg-5 col-md-5 mb-2 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em S. Antônio
+                                        </a>
+                                    </div>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+
+                                    <!-- PRODUTO 6 -->
+                                    <p><b>Diagonal X Peso: 5KG</b></p>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/andaimes/21-diagonal-x.webp" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">A Diagonal X é um componente fundamental para reforçar a estabilidade de andaimes e outras estruturas temporárias. Com design em forma de "X", proporciona maior resistência e segurança, evitando movimentos indesejados e aumentando a rigidez da montagem. Ideal para ser usado em obras e reformas que exigem uma estrutura segura e durável.</p>
+                                      <!-- WPP BTN -->
+                                    <div class="row justify-content-center">
+                                        <a class="col-lg-5 col-md-5 mb-2 mx-5 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em Feira
+                                        </a>
+        
+                                        <a class="col-lg-5 col-md-5 mb-2 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em S. Antônio
+                                        </a>
+                                    </div>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+
+                                    <!-- PRODUTO 7-->
+                                    <p><b>Guarda Corpo com Rodapé – Peso: 13KG / 20KG</b></p>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/andaimes/03-guarda-corpo-com-rodape.webp" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Guarda-corpo com rodapé, projetado para garantir segurança em andaimes e plataformas de trabalho. Fabricado em material resistente, oferece proteção contra quedas e maior estabilidade durante o uso. Fácil de instalar, é essencial para atender às normas de segurança em obras e reformas.</p>
+                                      <!-- WPP BTN -->
+                                    <div class="row justify-content-center">
+                                        <a class="col-lg-5 col-md-5 mb-2 mx-5 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em Feira
+                                        </a>
+        
+                                        <a class="col-lg-5 col-md-5 mb-2 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em S. Antônio
+                                        </a>
+                                    </div>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+
+                                    <!-- PRODUTO 8 -->
+                                    <p><b>Guarda Corpo Fachadeiro Peso: 2KG</b></p>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/andaimes/22-guarda-corpo-fachadeiro.webp" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">O guarda-corpo fachadeiro é projetado para proporcionar segurança adicional em andaimes e plataformas de trabalho em altura, especialmente em fachadas de edifícios. Fabricado com materiais resistentes, oferece proteção contra quedas, com fácil instalação e ajuste. Essencial para atender às normas de segurança em obras e garantir a proteção dos trabalhadores.</p>
+                                      <!-- WPP BTN -->
+                                    <div class="row justify-content-center">
+                                        <a class="col-lg-5 col-md-5 mb-2 mx-5 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em Feira
+                                        </a>
+        
+                                        <a class="col-lg-5 col-md-5 mb-2 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em S. Antônio
+                                        </a>
+                                    </div>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+
+                                    <!-- PRODUTO 9 -->
+                                    <p><b>Piso de Metal para Fachadeiro Peso: 17KG</b></p>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/andaimes/25-piso-de-metal-para-fachadeiro.webp" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">O piso de metal para andaime fachadeiro é projetado para garantir estabilidade e segurança durante o trabalho em fachadas de edifícios. Fabricado com material metálico resistente, oferece alta durabilidade e suporte para os trabalhadores. Seu design permite fácil instalação e adaptação às estruturas de andaimes, proporcionando uma base segura para a realização de serviços em altura. Ideal para obras de construção, reforma e manutenção de fachadas.</p>
+                                      <!-- WPP BTN -->
+                                    <div class="row justify-content-center">
+                                        <a class="col-lg-5 col-md-5 mb-2 mx-5 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em Feira
+                                        </a>
+        
+                                        <a class="col-lg-5 col-md-5 mb-2 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em S. Antônio
+                                        </a>
+                                    </div>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+
+                                    <!-- PRODUTO 10 -->
+                                    <p><b>Piso Metal – Peso: 8KG / 12KG</b></p>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/andaimes/05-piso-metal.webp" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Piso metálico antiderrapante, projetado para uso em andaimes, garantindo segurança e estabilidade durante o trabalho em altura. Resistente e durável, suporta altas cargas e é fácil de instalar. Ideal para obras, reformas e serviços que exigem eficiência e confiabilidade.</p>
+                                      <!-- WPP BTN -->
+                                    <div class="row justify-content-center">
+                                        <a class="col-lg-5 col-md-5 mb-2 mx-5 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em Feira
+                                        </a>
+        
+                                        <a class="col-lg-5 col-md-5 mb-2 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em S. Antônio
+                                        </a>
+                                    </div>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+
+                                    <!-- PRODUTO 11 -->
+                                    <p><b>Rodapé Fachadeiro Peso: 1,5KG</b></p>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/andaimes/23-rodape-fachadeiro.webp" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Trava diagonal para andaime, essencial para reforçar a estrutura e garantir maior estabilidade durante o uso. Fabricada em material resistente, proporciona segurança e durabilidade, atendendo às exigências de obras e reformas. Fácil de instalar, é indispensável para a montagem segura de andaimes.</p>
+                                      <!-- WPP BTN -->
+                                    <div class="row justify-content-center">
+                                        <a class="col-lg-5 col-md-5 mb-2 mx-5 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em Feira
+                                        </a>
+        
+                                        <a class="col-lg-5 col-md-5 mb-2 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em S. Antônio
+                                        </a>
+                                    </div>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+
+                                    <!-- PRODUTO 12 -->
+                                    <p><b>Roldana – Peso: 4KG</b></p>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/andaimes/06-roldana.webp" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Roldana projetada para movimentar torres de andaime com facilidade e segurança. Fabricada em material resistente, garante durabilidade e desempenho eficiente. Ideal para agilizar ajustes e deslocamentos durante obras e reformas.</p>
+                                      <!-- WPP BTN -->
+                                    <div class="row justify-content-center">
+                                        <a class="col-lg-5 col-md-5 mb-2 mx-5 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em Feira
+                                        </a>
+        
+                                        <a class="col-lg-5 col-md-5 mb-2 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em S. Antônio
+                                        </a>
+                                    </div>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+
+                                    <!-- PRODUTO 13 -->
+                                    <p><b>Sapata Ajustável – Peso: 3KG</b></p>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/andaimes/07-sapata-ajustavel.webp" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Sapata ajustável para andaime, projetada para proporcionar estabilidade e nivelamento em terrenos irregulares. Fabricada com materiais de alta resistência, permite ajustar a altura do andaime conforme necessário, garantindo segurança e equilíbrio durante o trabalho. Ideal para diversos tipos de obras e reformas.</p>
+                                      <!-- WPP BTN -->
+                                    <div class="row justify-content-center">
+                                        <a class="col-lg-5 col-md-5 mb-2 mx-5 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em Feira
+                                        </a>
+        
+                                        <a class="col-lg-5 col-md-5 mb-2 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em S. Antônio
+                                        </a>
+                                    </div>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+
+                                    <!-- PRODUTO 14 -->
+                                    <p><b>Sapata Fixa – Peso: 1KG</b></p>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/andaimes/08-sapata-fixa.webp" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">SEM TEXTO</p>
+                                      <!-- WPP BTN -->
+                                    <div class="row justify-content-center">
+                                        <a class="col-lg-5 col-md-5 mb-2 mx-5 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em Feira
+                                        </a>
+        
+                                        <a class="col-lg-5 col-md-5 mb-2 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em S. Antônio
+                                        </a>
+                                    </div>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+
+                                    <!-- PRODUTO 15 -->
+                                    <p><b>Trava Diagonal Peso: 3KG / 3,5KG</b></p>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/andaimes/09-trava-diagonal.webp" alt="Peça trava diagonal para locação." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Trava diagonal para andaime, essencial para reforçar a estrutura e garantir maior estabilidade durante o uso. Fabricada em material resistente, proporciona segurança e durabilidade, atendendo às exigências de obras e reformas. Fácil de instalar, é indispensável para a montagem segura de andaimes.</p>
+                                      <!-- WPP BTN -->
+                                    <div class="row justify-content-center">
+                                        <a class="col-lg-5 col-md-5 mb-2 mx-5 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em Feira
+                                        </a>
+        
+                                        <a class="col-lg-5 col-md-5 mb-2 btn btn-xl-whatsapp btn-outline-whatsapp" href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                            Alugue em S. Antônio
+                                        </a>
+                                    </div>
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    
+                                    
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
-                                        Close Window
+                                        Voltar
                                     </button>
                                 </div>
                             </div>

@@ -11051,7 +11051,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -11096,6 +11096,16 @@ html {
 }
 .text-color-grey {
   color: #343a40;
+}
+
+.btn-orange {
+  background-color: rgba(253,126,20);
+  transition: scale 0.3s;
+}
+
+.btn-orange:hover {
+  background-color: rgba(253,126,20);
+  scale: 1.1
 }
 
 /* Oculta o botão do desktop em telas menores */

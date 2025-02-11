@@ -11149,10 +11149,17 @@ html {
   }
 }
 
+.product-title {
+  height: 45px;
+}
+
 @media (max-width: 595px) {
   .img-fluid-modal{
     max-width: 100px;
     height: 100PX;
+  }
+  .product-title {
+    height: auto;
   }
 }
 

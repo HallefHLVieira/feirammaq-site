@@ -11179,7 +11179,7 @@ html {
 
 /* Fundo da sessão hero */
 .hero {
-  height: 400px;
+  height: 500px;
   background: url('../assets/img/back.png') no-repeat center -300px fixed;
   background-size: cover;
   display: flex;

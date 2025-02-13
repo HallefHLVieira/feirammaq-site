@@ -11229,11 +11229,17 @@ html {
   }
 }
 
+@media (max-width: 595px) {
+  .hero {
+    height: 400px;
+  }
+}
+
 @media (max-width: 768px) {
   .hero {
-      background-attachment: scroll; /* Faz a imagem rolar junto */
-      background-size: cover; /* Ajusta ao tamanho da tela */
-      background-position: center;
+    background-attachment: scroll; /* Faz a imagem rolar junto */
+    background-size: cover; /* Ajusta ao tamanho da tela */
+    background-position: center;
   }
   .modal-footer {
     position: sticky;

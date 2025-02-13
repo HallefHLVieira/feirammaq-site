@@ -11189,6 +11189,8 @@ html {
   z-index: 1; /* Mantém a hero acima de outros elementos */
 }
 
+
+
 /* Criando o fundo escuro transparente */
 .overlay {
   position: absolute;
@@ -11227,9 +11229,7 @@ html {
     height: 45px;
     width: 175px;
   }
-}
 
-@media (max-width: 595px) {
   .hero {
     height: 400px;
   }

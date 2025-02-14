@@ -11180,7 +11180,7 @@ html {
 /* Fundo da sessão hero */
 .hero {
   height: 600px;
-  background: url('../assets/img/bg-img-store.jpg') no-repeat center top fixed;
+  background: url('../assets/img/intro-1920x900.png') no-repeat center top fixed;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -11249,4 +11249,26 @@ html {
     justify-content: center;
     border: none;
   }
+}
+
+.ver-mais-btn {
+  position: absolute;
+  bottom: -10px; /* Centraliza verticalmente */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* Ajuste fino para centralização */
+  background: rgba(253, 126, 20, 0.7); /* Fundo escuro translúcido */
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  border-radius: 50%;
+  border: 2px solid #FFF;
+}
+
+.ver-mais-btn:hover {
+  background: rgba(0, 0, 0, 0.7); /* Efeito ao passar o mouse */
+  color: #fff;
 }

@@ -600,20 +600,99 @@
                     <div class="container">
                         <h3>ESCOLHA A LOJA</h3>
                         <br>
-                        <div class="row justify-content-center">
-                            <a class="col-lg-4 col-md-4 mb-2 mx-5 btn btn-xl-whatsapp btn-outline-whatsapp"
-                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                target="_blank">
-                                <i class="fa-brands fa-whatsapp"></i>
-                                Feira de Santana
-                            </a>
+                        <div class="row justify-content-center mt-3">
+                            <!-- SOMENTE MOBILE (CAROUSEL) -->
+                            <div class="d-block d-md-none my-4">
+                                <div id="lojasCarouselModal" class="carousel slide" data-bs-ride="carousel"
+                                    data-bs-touch="true">
+                                    <div class="carousel-inner">
 
-                            <a class="col-lg-4 col-md-4 mb-2 btn btn-xl-whatsapp btn-outline-whatsapp"
-                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                target="_blank">
-                                <i class="fa-brands fa-whatsapp"></i>
-                                Santo Antônio de Jesus
-                            </a>
+                                        <!-- Slide 1 -->
+                                        <div class="carousel-item active">
+                                            <div class="card mx-auto" style="width: 90%;">
+                                                <img src="assets/img/img-empresa.webp" class="card-img-top"
+                                                    alt="Loja Feira de Santana">
+                                                <div
+                                                    class="card-body text-center d-flex flex-column justify-content-between">
+                                                    <h5 class="card-title">Feira de Santana</h5>
+                                                    <p class="card-text">Av. Pres. Dutra, 1567<br>Capuchinhos, Feira de
+                                                        Santana
+                                                        - BA</p>
+                                                    <a href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
+                                                        class="btn btn-outline-whatsapp mt-auto" target="_blank">
+                                                        <i class="fab fa-whatsapp"></i> Entrar em contato
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Slide 2 -->
+                                        <div class="carousel-item">
+                                            <div class="card mx-auto" style="width: 90%;">
+                                                <img src="assets/img/saj.png" class="card-img-top"
+                                                    alt="Loja Santo Antônio de Jesus">
+                                                <div
+                                                    class="card-body text-center d-flex flex-column justify-content-between">
+                                                    <h5 class="card-title">St. Antônio de Jesus</h5>
+                                                    <p class="card-text">Av. Ver. João Silva, 801<br>Amparo, Santo
+                                                        Antônio de
+                                                        Jesus - BA</p>
+                                                    <a href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
+                                                        class="btn btn-outline-whatsapp mt-auto" target="_blank">
+                                                        <i class="fab fa-whatsapp"></i> Entrar em contato
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <!-- Controles -->
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#lojasCarouselModal"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#lojasCarouselModal"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </button>
+                                    <span><strong>Arraste para mudar</strong></span>
+                                </div>
+                            </div>
+
+                            <!-- SOMENTE DESKTOP/TABLET (CARDS LADO A LADO) -->
+                            <div class="d-none d-md-flex justify-content-center gap-4 my-4">
+                                <!-- Card 1 -->
+                                <div class="card shadow-sm" style="width: 18rem;">
+                                    <img src="assets/img/img-empresa.webp" class="card-img-top"
+                                        alt="Loja Feira de Santana">
+                                    <div class="card-body text-center d-flex flex-column justify-content-between">
+                                        <h5 class="card-title">Feira de Santana</h5>
+                                        <p class="card-text">Av. Pres. Dutra, 1567<br>Capuchinhos, Feira de Santana - BA
+                                        </p>
+                                        <a href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
+                                            class="btn btn-outline-whatsapp mt-auto" target="_blank">
+                                            <i class="fab fa-whatsapp"></i> Entrar em contato
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Card 2 -->
+                                <div class="card shadow-sm" style="width: 18rem;">
+                                    <img src="assets/img/saj.png" class="card-img-top"
+                                        alt="Loja Santo Antônio de Jesus">
+                                    <div class="card-body text-center d-flex flex-column justify-content-between">
+                                        <h5 class="card-title">St. Antônio de Jesus</h5>
+                                        <p class="card-text">Av. Ver. João Silva, 801<br>Amparo, Santo Antônio de Jesus
+                                            - BA</p>
+                                        <a href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
+                                            class="btn btn-outline-whatsapp mt-auto" target="_blank">
+                                            <i class="fab fa-whatsapp"></i> Entrar em contato
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -655,20 +734,11 @@
                                             permite fácil montagem e transporte, sendo perfeito para serviços de
                                             pintura, limpeza, manutenção e reforma de fachadas, proporcionando segurança
                                             e eficiência.</p>
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -689,20 +759,11 @@
                                             altura. Fácil de montar, desmontar e armazenar. Perfeito para profissionais
                                             que buscam eficiência e durabilidade.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -724,20 +785,11 @@
                                             grande porte, aumenta a segurança e a resistência da estrutura durante a
                                             execução de trabalhos em altura. 40 mini.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -758,20 +810,11 @@
                                             andaime, aumentando a rigidez e a segurança da estrutura. Ideal para
                                             montagem e ajustes de andaimes em diversos tipos de obras e reformas.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -791,20 +834,11 @@
                                             materiais robustos e antiderrapantes, oferece estabilidade e praticidade na
                                             montagem. Ideal para obras, reformas e serviços em altura.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -825,20 +859,11 @@
                                             indesejados e aumentando a rigidez da montagem. Ideal para ser usado em
                                             obras e reformas que exigem uma estrutura segura e durável.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -860,20 +885,11 @@
                                             uso. Fácil de instalar, é essencial para atender às normas de segurança em
                                             obras e reformas.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -896,20 +912,11 @@
                                             para atender às normas de segurança em obras e garantir a proteção dos
                                             trabalhadores.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -933,20 +940,11 @@
                                             segura para a realização de serviços em altura. Ideal para obras de
                                             construção, reforma e manutenção de fachadas.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-icon just-mobile"><i
@@ -966,20 +964,11 @@
                                             Resistente e durável, suporta altas cargas e é fácil de instalar. Ideal para
                                             obras, reformas e serviços que exigem eficiência e confiabilidade.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1000,20 +989,11 @@
                                             obras e reformas. Fácil de instalar, é indispensável para a montagem segura
                                             de andaimes.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1033,20 +1013,11 @@
                                             durabilidade e desempenho eficiente. Ideal para agilizar ajustes e
                                             deslocamentos durante obras e reformas.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1067,20 +1038,11 @@
                                             conforme necessário, garantindo segurança e equilíbrio durante o trabalho.
                                             Ideal para diversos tipos de obras e reformas.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1097,20 +1059,11 @@
                                         <!-- Portfolio Modal - Text-->
                                         <p class="mb-4 p-modal"></p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1132,20 +1085,11 @@
                                             obras e reformas. Fácil de instalar, é indispensável para a montagem segura
                                             de andaimes.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1203,20 +1147,11 @@
                                             roubo. Com 3 prateleiras de cada lado, oferece amplo espaço e organização
                                             eficiente. Ideal para empresas que precisam de uma estrutura robusta e
                                             móvel.</p>
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1238,20 +1173,11 @@
                                             lavatórios e, às vezes, chuveiros, oferece conforto em locais sem
                                             infraestrutura. Ideal para construção e projetos industriais.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1272,20 +1198,11 @@
                                             marítimo, protege contra intempéries e roubo. Fácil de transportar e
                                             adaptar, oferece organização prática para materiais e equipamentos.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1306,20 +1223,11 @@
                                             ideal para obras, projetos temporários e áreas sem infraestrutura,
                                             oferecendo praticidade e segurança.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1340,20 +1248,11 @@
                                             armazenar e proteger variados tipos de materiais, ferramentas, máquinas e
                                             demais objetos, conforme sua necessidade.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1411,20 +1310,11 @@
                                             oferecendo segurança e versatilidade para construção, manutenção e reformas.
                                             Ajustável e resistente, garante estabilidade e conforto em trabalhos em
                                             altura.</p>
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1445,20 +1335,11 @@
                                             ergonômica, facilita o manuseio em espaços reduzidos, sendo perfeita para
                                             operações logísticas.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1479,20 +1360,11 @@
                                             é ideal para construção e marcenaria, proporcionando agilidade e eficiência.
                                         </p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1513,20 +1385,11 @@
                                             resistente, proporciona segurança e controle no transporte vertical de
                                             materiais pesados.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1547,20 +1410,11 @@
                                             potência e controle, garantindo segurança e precisão durante a elevação de
                                             materiais pesados.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1621,20 +1475,11 @@
                                             trabalhos pesados. Sua estrutura estável e design funcional proporcionam
                                             cortes rápidos e eficientes, sendo ideal para marcenarias, carpintarias e
                                             oficinas.</p>
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1657,20 +1502,11 @@
                                             de obras e reformas. Durável e fácil de operar, é essencial para quem busca
                                             produtividade e qualidade.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1693,20 +1529,11 @@
                                             motor elétrico garante desempenho constante e econômico, sendo a escolha
                                             ideal para canteiros de obras que buscam produtividade.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1728,20 +1555,11 @@
                                             robusto e contínuo, sendo perfeita para construção civil, drenagem e
                                             manutenção.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1759,20 +1577,11 @@
                                         <!-- Portfolio Modal - Text-->
                                         <p class="mb-4 p-modal"></p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1794,20 +1603,11 @@
                                             brocas, tornando o uso prático e ágil. Compacta e ergonômica, oferece
                                             conforto no manuseio, sendo perfeita para uso profissional e doméstico.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1829,20 +1629,11 @@
                                             manuseio e alta durabilidade. Perfeita para uso profissional e doméstico.
                                         </p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1865,20 +1656,11 @@
                                             tornando o uso mais prático. Perfeita para profissionais da construção,
                                             reformas e manutenção.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1900,20 +1682,11 @@
                                             mais prático. Perfeita para profissionais da construção, reformas e
                                             manutenção.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1935,20 +1708,11 @@
                                             manutenção e transporte de materiais. Compacto e durável, oferece alto
                                             desempenho em tarefas exigentes.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -1970,20 +1734,11 @@
                                             durável, garante controle preciso, proporcionando eficiência e segurança no
                                             canteiro de obras.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2001,20 +1756,11 @@
                                         <!-- Portfolio Modal - Text-->
                                         <p class="mb-4 p-modal"></p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2032,20 +1778,11 @@
                                         <!-- Portfolio Modal - Text-->
                                         <p class="mb-4 p-modal"></p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2066,20 +1803,11 @@
                                             desempenho e segurança ao mover cargas em alturas. Robusto e durável,
                                             garante controle preciso e eficiência no canteiro de obras.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2102,20 +1830,11 @@
                                             para marcenaria, pintura e reparos. Ideal para profissionais e quem busca
                                             resultados de qualidade em acabamentos e polimentos.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2133,20 +1852,11 @@
                                         <!-- Portfolio Modal - Text-->
                                         <p class="mb-4 p-modal"></p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2164,20 +1874,11 @@
                                         <!-- Portfolio Modal - Text-->
                                         <p class="mb-4 p-modal"></p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2199,20 +1900,11 @@
                                             temperatura para maior segurança. Ideal para oficinas, construção e reparos.
                                         </p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2233,20 +1925,11 @@
                                             alto desempenho e durabilidade para projetos industriais. Seu controle de
                                             calor e design eficiente garantem qualidade em soldagens exigentes.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2268,20 +1951,11 @@
                                             perfeita para profissionais que precisam de potência e controle em soldagens
                                             industriais.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2304,20 +1978,11 @@
                                             robusto assegura confiabilidade e alto rendimento em operações contínuas.
                                             Ideal para profissionais exigentes.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2341,20 +2006,11 @@
                                             profissionais que buscam eficiência e facilidade no manuseio em demolições
                                             de média intensidade.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2375,20 +2031,11 @@
                                             design ergonômico e alta durabilidade, sendo ideal para demolições e
                                             trabalhos pesados.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2410,20 +2057,11 @@
                                             acessórios, tornando o uso ágil. Perfeito para profissionais que buscam uma
                                             ferramenta durável e eficiente para trabalhos pesados.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2446,20 +2084,11 @@
                                             Ideal para profissionais que buscam uma ferramenta versátil e confiável para
                                             obras e reformas.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2482,20 +2111,11 @@
                                             fácil manutenção, garantindo maior produtividade e qualidade nos processos
                                             com vibração constante.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2516,20 +2136,11 @@
                                             alimentícia. Oferece vibração constante, alta durabilidade, fácil instalação
                                             e baixo custo de manutenção, aumentando a produtividade.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2552,20 +2163,11 @@
                                             precisão e evita danos aos materiais, tornando-a essencial para projetos de
                                             montagem e manutenção.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2587,20 +2189,11 @@
                                             conforto, sendo perfeita para profissionais que buscam qualidade e agilidade
                                             no acabamento.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2618,20 +2211,11 @@
                                         <!-- Portfolio Modal - Text-->
                                         <p class="mb-4 p-modal"></p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2653,20 +2237,11 @@
                                             rápidos e eficientes. Perfeita para profissionais que buscam agilidade e
                                             precisão em seus cortes.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2688,20 +2263,11 @@
                                             e eficientes. Perfeita para profissionais que buscam agilidade e qualidade
                                             em cortes de acabamento e instalações.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2723,20 +2289,11 @@
                                             durabilidade e conforto no uso. Perfeita para profissionais que precisam de
                                             uma ferramenta confiável para cortes pesados.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2757,20 +2314,11 @@
                                             precisa, oferece ajuste de velocidade e lâmina variável, sendo perfeita para
                                             marcenaria, artesanato e reformas.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2793,20 +2341,11 @@
                                             proteção contra sobrecargas, sendo essencial para projetos de construção e
                                             oficinas.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2828,20 +2367,11 @@
                                             oferece proteção contra sobrecargas. Compacto e fácil de instalar, é ideal
                                             para projetos grandes e ferramentas de alto desempenho.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2898,20 +2428,11 @@
                                             grandes áreas de concreto. Com lâmina de 36 polegadas, proporciona um
                                             alisamento rápido e uniforme, garantindo alta performance e eficiência em
                                             pisos industriais.</p>
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2931,20 +2452,11 @@
                                             sem eletricidade. Com capacidade para 400 litros, oferece excelente
                                             desempenho na mistura de concreto e proporciona mobilidade e autonomia,
                                             sendo perfeita para canteiros de obras remotos ou grandes projetos.</p>
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -2966,20 +2478,11 @@
                                             ideal para áreas de difícil acesso e trabalhos que exigem alta produtividade
                                             e qualidade. Perfeito para profissionais que buscam potência e
                                             confiabilidade.</p>
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -3000,20 +2503,11 @@
                                             elétrica. Perfeito para obras, eventos e emergências, garante mobilidade,
                                             autonomia e confiabilidade, alimentando equipamentos pesados e sistemas
                                             essenciais.</p>
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -3033,20 +2527,11 @@
                                             confiável, ideal para locais remotos ou emergências. Oferece autonomia para
                                             alimentar equipamentos em obras, acampamentos e eventos, com operação
                                             eficiente e design compacto para fácil transporte.</p>
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -3066,20 +2551,11 @@
                                             robusta, ideal para equipamentos exigentes em locais sem acesso à rede
                                             elétrica. Perfeito para obras, eventos e emergências, com operação
                                             eficiente, mobilidade e autonomia.</p>
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -3100,20 +2576,11 @@
                                             materiais, ideal para locais sem acesso à energia elétrica. Compacto e
                                             robusto, é fácil de manusear e manter, garantindo durabilidade e resistência
                                             em obras remotas ou de difícil acesso.</p>
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -3134,20 +2601,11 @@
                                             e lâminas afiadas, oferece alta performance em diversos tipos de solo. Seu
                                             design ergonômico e leve garante conforto e segurança, tornando-o perfeito
                                             para uso em agricultura, paisagismo e construção.</p>
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -3168,20 +2626,11 @@
                                             força de compactação, tornando o nivelamento e preparação do solo rápidos e
                                             eficientes. Seu motor a gasolina garante mobilidade e autonomia, sendo
                                             perfeita para locais sem acesso à energia elétrica.</p>
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -3202,20 +2651,11 @@
                                             oferece alta força de compactação e função reversível para manobras em
                                             espaços confinados. Sua operação eficiente e design ergonômico a tornam
                                             perfeita para obras de pavimentação e fundações.</p>
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -3238,20 +2678,11 @@
                                             proporciona autonomia para uso em ambientes externos, como construção e
                                             manutenção de fachadas. Robusta e fácil de operar, é perfeita para serviços
                                             verticais com segurança e eficiência.</p>
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -3268,20 +2699,11 @@
                                             alt="Imagem de uma roçadeira a gasolina." />
                                         <!-- Portfolio Modal - Text-->
                                         <p class="mb-4 p-modal"></p>
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -3302,20 +2724,11 @@
                                             alta força de compactação e uma compactação uniforme, sendo perfeito para
                                             fundações e asfaltamento. Fácil de operar e durável, é a escolha certa para
                                             projetos que exigem alto desempenho.</p>
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -3337,20 +2750,11 @@
                                             polegadas garante alta capacidade de corte, tornando-a perfeita para
                                             profissionais que necessitam de desempenho em ambientes externos e terrenos
                                             difíceis.</p>
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -3406,20 +2810,11 @@
                                         <!-- Portfolio Modal - Text-->
                                         <p class="mb-4 p-modal">Escora ajustável de 2,0 a 3,1m, resistente e segura,
                                             ideal para sustentar estruturas temporárias em obras e reformas.</p>
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -3439,20 +2834,11 @@
                                             ideal para sustentar formas, lajes e estruturas temporárias em obras e
                                             reformas.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -3471,20 +2857,11 @@
                                         <p class="mb-4 p-modal">Escora ajustável de 3,0 a 4,5m, resistente e flexível,
                                             ideal para suporte seguro em construções e reformas de grande porte.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -3504,20 +2881,11 @@
                                             ideal para sustentar estruturas temporárias em grandes obras e reformas com
                                             segurança.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -3539,20 +2907,11 @@
                                             manutenção de vigas. Ideal para garantir a segurança e precisão em projetos
                                             de construção.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -3573,20 +2932,11 @@
                                             compatível com barras de ancoragem para maior estabilidade e segurança em
                                             construções e reformas.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -3607,20 +2957,11 @@
                                             compatível com barras de ancoragem para maior estabilidade e segurança em
                                             construções e reformas.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -3642,20 +2983,11 @@
                                             compatível com barras de ancoragem para maior estabilidade e segurança em
                                             construções e reformas.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -3676,20 +3008,11 @@
                                             compatível com barras de ancoragem para maior estabilidade e segurança em
                                             construções e reformas.</p>
                                         <!-- WPP BTN -->
-                                        <div class="row justify-content-center">
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
+                                        <div class="row justify-content-center" data-bs-toggle="modal" data-bs-target="#wppModal">
+                                            <div class="btn btn-xl-whatsapp-modal btn-outline-whatsapp">
                                                 <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em Feira
-                                            </a>
-
-                                            <a class="btn btn-xl-whatsapp-modal btn-outline-whatsapp"
-                                                href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                                                target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                                Alugue em S. Antônio
-                                            </a>
+                                                Alugue agora
+                                            </div>
                                         </div>
                                         <div class="divider-custom">
                                             <div class="divider-custom-line just-mobile"></div>
@@ -3712,6 +3035,7 @@
             </div>
         </div>
     </div>
+
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 

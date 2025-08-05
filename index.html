@@ -17,6 +17,8 @@
     }
 
     body {
+      background: url('/assets/img/bg-img-store.jpg') no-repeat center center fixed;
+      background-size: cover;
       min-height: 100vh;
       display: flex;
       flex-direction: column;
@@ -45,9 +47,9 @@
   </style>
 </head>
 
-<body style="background: ##333;">
+<body>
   <!-- MENU AREA -->
-  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+  <nav class=" navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
     <div class="container">
       <img class="menu-logo" src="assets/img/logo.webp" alt="Logomarca FeiraMaq">
       <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
@@ -59,54 +61,20 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">Início</a></li>
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Empresa</a></li>
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#faq">F.A.Q</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- ...existing code... -->
-  <div class="container text-center" style="margin-top: 15vh;">
-    <h1>Encontre a unidade mais próxima de você</h1>
-    <!-- DESKTOP: cards lado a lado -->
-    <!-- ...existing code... -->
-    <div class="row justify-content-center mt-5 d-none d-md-flex">
-      <div class="col-md-4 mb-4">
-        <div class="card shadow-lg">
-          <img src="assets/img/img-empresa.webp" class="card-img-top" alt="Feira de Santana">
-          <div class="card-body">
-            <h3 class="card-title">Feira de Santana</h3>
-            <p class="card-text">Av. Pres. Dutra, 1567<br>Capuchinhos, Feira de Santana - BA</p>
-            <div class="d-grid gap-2">
-              <a href="feira.html" class="btn btn-equipamentos">Equipamentos</a>
-              <a href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                target="_blank" class="btn btn-success">
-                <i class="fa-brands fa-whatsapp"></i> WhatsApp
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card shadow-lg">
-          <img src="assets/img/saj.png" class="card-img-top" alt="Santo Antônio de Jesus">
-          <div class="card-body">
-            <h3 class="card-title">Santo Antônio de Jesus</h3>
-            <p class="card-text">Av. Ver. João Silva, 801<br>Amparo, Santo Antônio de Jesus - BA</p>
-            <div class="d-grid gap-2">
-              <a href="saj.html" class="btn btn-equipamentos">Equipamentos</a>
-              <a href="https://wa.me/5575999998888" target="_blank" class="btn btn-success">
-                <i class="fa-brands fa-whatsapp"></i> WhatsApp
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- ...existing code... -->
-    <div class="d-md-none mt-5">
-      <div id="unidadesCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+  <section class="hero-index" id="hero">
+    <div class="overlay">
+      <div class="container text-center main-div">
+        <h1 class="text-white">Encontre a unidade mais próxima de você</h1>
+
+        <div class="row justify-content-center mt-5 d-none d-md-flex">
+          <div class="col-md-4 mb-4">
             <div class="card shadow-lg">
               <img src="assets/img/img-empresa.webp" class="card-img-top" alt="Feira de Santana">
               <div class="card-body">
@@ -114,15 +82,15 @@
                 <p class="card-text">Av. Pres. Dutra, 1567<br>Capuchinhos, Feira de Santana - BA</p>
                 <div class="d-grid gap-2">
                   <a href="feira.html" class="btn btn-equipamentos">Equipamentos</a>
-                  <a href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
+                  <a href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
                     target="_blank" class="btn btn-success">
-                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                    <i class="fa-brands fa-whatsapp"></i> Contato
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="col-md-4 mb-4">
             <div class="card shadow-lg">
               <img src="assets/img/saj.png" class="card-img-top" alt="Santo Antônio de Jesus">
               <div class="card-body">
@@ -131,19 +99,282 @@
                 <div class="d-grid gap-2">
                   <a href="saj.html" class="btn btn-equipamentos">Equipamentos</a>
                   <a href="https://wa.me/5575999998888" target="_blank" class="btn btn-success">
-                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                    <i class="fa-brands fa-whatsapp"></i> Contato
                   </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <!-- ...existing carousel controls... -->
+
+        <div class="d-md-none mt-5">
+          <div id="unidadesCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card shadow-lg">
+                  <img src="assets/img/img-empresa.webp" class="card-img-top" alt="Feira de Santana">
+                  <div class="card-body">
+                    <h3 class="card-title">Feira de Santana</h3>
+                    <p class="card-text">Av. Pres. Dutra, 1567<br>Capuchinhos, Feira de Santana - BA</p>
+                    <div class="d-grid gap-2">
+                      <a href="feira.html" class="btn btn-equipamentos">Equipamentos</a>
+                      <a href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
+                        target="_blank" class="btn btn-success">
+                        <i class="fa-brands fa-whatsapp"></i> Contato
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card shadow-lg">
+                  <img src="assets/img/saj.png" class="card-img-top" alt="Santo Antônio de Jesus">
+                  <div class="card-body">
+                    <h3 class="card-title">Santo Antônio de Jesus</h3>
+                    <p class="card-text">Av. Ver. João Silva, 801<br>Amparo, Santo Antônio de Jesus - BA</p>
+                    <div class="d-grid gap-2">
+                      <a href="saj.html" class="btn btn-equipamentos">Equipamentos</a>
+                      <a href="https://wa.me/5575999998888" target="_blank" class="btn btn-success">
+                        <i class="fa-brands fa-whatsapp"></i> Contato
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Controles do carrossel -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#unidadesCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#unidadesCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Próximo</span>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- ...existing code... -->
-  </div>
-  <!-- ...existing code... -->
+  </section>
+
+  <!-- SOBRE -->
+  <section class="page-section bg-primary text-white mb-0" id="about">
+    <div class="container">
+      <!-- ABOUT SECTION HEADER -->
+      <h2 class="page-section-heading text-center text-uppercase text-white">Sobre a FeiraMaq</h2>
+      <br>
+      <div class="row justify-content-center">
+        <!-- SLIDER LOJAS COLUNM -->
+        <div class="col-md-4 col-lg-4 mb-5">
+          <!-- CAROUSEL TO LOJAS -->
+          <div id="carouselLojas" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="5000">
+                <img class="img-fluid rounded container-height" src="assets/img/img-empresa.webp"
+                  alt="Foto da loja de Feira de Santana">
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img class="img-fluid rounded container-height" src="assets/img/saj.png"
+                  alt="Foto da loja de Santo Antonio de Jesus">
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselLojas" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselLojas" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- CARD MISSION - VISION - ABOUT -->
+        <div class="col-md-6 col-lg-6 mb-5">
+          <div class="card container-height" style="border: none; overflow-y: auto;">
+            <ul class="nav nav-tabs card-header-tabs w-100" style="margin: auto;" id="myTab" role="tablist">
+              <!-- ABOUT -->
+              <li class="nav-item" role="presentation">
+                <a class="nav-link show active" id="home-tab" data-bs-toggle="tab" href="#about-feira" role="tab"
+                  aria-controls="home" aria-selected="false">Feira Maq</a>
+              </li>
+              <!-- MISSION -->
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#mission" role="tab"
+                  aria-controls="profile" aria-selected="false">Missão</a>
+              </li>
+              <!-- VISION -->
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#vision" role="tab"
+                  aria-controls="contact" aria-selected="false">Visão</a>
+              </li>
+            </ul>
+
+            <!-- ABAS CONTENT -->
+            <div class="card-body">
+
+              <div class="tab-content" id="myTabContent">
+                <!-- ABOUT -->
+                <div class="tab-pane fade show active" id="about-feira" role="tabpanel" aria-labelledby="home-tab">
+                  <div class="ms-auto">
+                    <p class="lead text-color-grey text-wrap mb-3">
+                      Em meados de 2006, no coração de <span class="span-cities">Feira de
+                        Santana</span>, Bahia, nascia um sonho que viria a se
+                      tornar referência em sua área: a Feira Maq. Tudo começou com uma visão
+                      simples, mas poderosa — oferecer soluções práticas e
+                      acessíveis para quem trabalha na construção civil. Naquela época, a cidade
+                      crescia rapidamente, e as obras brotavam em cada
+                      esquina. Era o cenário perfeito para o nascimento de algo grande.
+                    </p>
+                    <p class="lead text-color-grey text-wrap mb-3">
+                      A Feira Maq surgiu como uma pequena empresa de locação de equipamentos e
+                      ferramentas. Com esforço e dedicação, ela foi ganhando
+                      a confiança dos trabalhadores e empresários do setor. Andaimes, ferramentas
+                      elétricas, compactadores, betoneiras… a cada novo
+                      cliente atendido, a reputação da empresa crescia, construída com base na
+                      pontualidade, no bom atendimento e, claro, na qualidade
+                      dos equipamentos.
+                    </p>
+                    <p class="lead text-color-grey text-wrap mb-3">
+                      O tempo passou, e a empresa, como um prédio bem alicerçado, foi subindo
+                      andar por andar. Com o sucesso em Feira de Santana, veio a
+                      expansão: uma nova unidade em <span class="span-cities">Santo Antônio de
+                        Jesus</span>, levando as soluções da Feira Maq para ainda mais longe,
+                      ajudando a erguer
+                      sonhos em outros cantos da Bahia.
+                    </p>
+                    <p class="lead text-color-grey text-wrap mb-3">
+                      Hoje, a Feira Maq é muito mais do que uma locadora de máquinas. Ela é parte
+                      da história da construção civil na região. Está presente nos
+                      bastidores de muitas obras, grandes ou pequenas, sempre com o mesmo
+                      compromisso: ajudar a construir com segurança, qualidade e confiança.
+                    </p>
+                    <p class="lead text-color-grey text-wrap mb-3">
+                      E essa história, que começou com uma ideia e muita coragem, segue sendo
+                      escrita todos os dias — com cada cliente que entra na loja, com
+                      cada equipamento que vai para o canteiro de obras, com cada construção que
+                      se ergue ao céu baiano.
+                    </p>
+                  </div>
+                  <div class="ms-auto">
+                    <p class="lead text-color-grey text-wrap">
+                      Contamos com uma equipe especializada para garantir eficiência, segurança,
+                      economia e qualidade para os projetos dos clientes.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- MISSION -->
+                <div class="tab-pane fade" id="mission" role="tabpanel" aria-labelledby="profile-tab">
+                  <div class="ms-auto">
+                    <p class="lead text-color-grey text-wrap mb-3">
+                      Levar para você, melhor eficiência, segurança e qualidade em Andaimes,
+                      Máquinas e Equipamentos, garantir maior conforto e consistência na
+                      realização de seus projetos.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- VISION -->
+                <div class="tab-pane fade" id="vision" role="tabpanel" aria-labelledby="contact-tab">
+                  <div class="ms-auto">
+                    <p class="lead text-color-grey text-wrap mb-3">
+                      A Feira Maq se esforça a cada dia para garantir melhor qualidade a cada
+                      profissional da construção civil. Para nós, o auxílio da máquina é
+                      fundamental no desempenho de seus projetos. Trazendo mais segurança,
+                      conforto, eficiência, informação e bons resultados para sua construção.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTACT BTN -->
+      <div class="row justify-content-center">
+        <!-- WPP BTN -->
+        <div class="text-center mt-4 text-wrap">
+          <div class="btn btn-xl-whatsapp btn-outline-whatsapp">
+            <i class="fa-brands fa-whatsapp"></i>
+            Entre em contato
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="page-section bg-light" id="faq">
+    <div class="container py-5">
+      <h2 class="page-section-heading text-center text-uppercase mb-4">F.A.Q</h2>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq1-heading">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1"
+              aria-expanded="true" aria-controls="faq1">
+              Como faço para alugar um equipamento?
+            </button>
+          </h2>
+          <div id="faq1" class="accordion-collapse collapse show" aria-labelledby="faq1-heading"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Basta escolher a unidade desejada, clicar em "Equipamentos" e entrar em contato pelo WhatsApp para
+              finalizar o aluguel.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq2-heading">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2"
+              aria-expanded="false" aria-controls="faq2">
+              Quais documentos preciso apresentar?
+            </button>
+          </h2>
+          <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2-heading"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              É necessário apresentar documento com foto e comprovante de residência atualizado.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq3-heading">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3"
+              aria-expanded="false" aria-controls="faq3">
+              Posso reservar equipamentos com antecedência?
+            </button>
+          </h2>
+          <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq3-heading"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Sim! Recomendamos reservar com antecedência para garantir a disponibilidade do equipamento desejado.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq4-heading">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4"
+              aria-expanded="false" aria-controls="faq4">
+              Por que escolher a Feira Maq?
+            </button>
+          </h2>
+          <div id="faq4" class="accordion-collapse collapse" aria-labelledby="faq4-heading"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Na FeiraMaq, você conta com uma equipe especializada, pronta para oferecer o melhor atendimento e o
+              suporte técnico mais completo do mercado. Nosso objetivo é garantir soluções sob medida para suas
+              necessidades, sempre com a melhor relação custo-benefício da região.
+            </div>
+          </div>
+        </div>
+        <!-- Adicione mais perguntas conforme necessário -->
+      </div>
+    </div>
+  </section>
 
   <!-- FOOTER -->
   <footer class="footer copyright py-4  text-center text-white">
@@ -151,7 +382,6 @@
   </footer>
 
 </body>
-<!-- Bootstrap core JS-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </html>

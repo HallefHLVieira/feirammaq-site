@@ -48,10 +48,11 @@
 </head>
 
 <body>
-  <!-- MENU AREA -->
-  <nav class=" navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+  <!-- MENU AREA-->
+  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
     <div class="container">
-      <img class="menu-logo" src="assets/img/logo.webp" alt="Logomarca FeiraMaq">
+      <img class="menu-logo" src="assets/img/logo.webp" alt="Logomarca FeiraMaq - Locação de máquinas e equipmentos.">
+      <!-- SANDWICH BUTTON -->
       <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
         data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
         aria-expanded="false" aria-label="Toggle navigation">
@@ -60,26 +61,40 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">Início</a></li>
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#hero">Início</a></li>
+
           <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Empresa</a></li>
-          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#faq">F.A.Q</a></li>
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#faq">F.A.Q</a>
+          </li>
         </ul>
+
+      </div>
+      <div class="btn btn-outline-whatsapp btn-social mx-1 wpp-floating wpp-desktop">
+        <a href="#hero" style="text-decoration: none; color: white;">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
       </div>
     </div>
   </nav>
 
+  <!-- INTRO SITE AREA -->
   <section class="hero-index" id="hero">
     <div class="overlay">
-      <div class="container text-center main-div">
-        <h1 class="text-white">Encontre a unidade mais próxima de você</h1>
+      <div class="row justify-content-center">
+        <div class="container text-center text-white hero-index-margin-top-h1">
+          <h1 class="text-white">Encontre a unidade mais próxima de você</h1>
+        </div>
 
-        <div class="row justify-content-center mt-5 d-none d-md-flex">
-          <div class="col-md-4 mb-4">
-            <div class="card shadow-lg">
-              <img src="assets/img/img-empresa.webp" class="card-img-top" alt="Feira de Santana">
-              <div class="card-body">
-                <h3 class="card-title">Feira de Santana</h3>
-                <p class="card-text">Av. Pres. Dutra, 1567<br>Capuchinhos, Feira de Santana - BA</p>
+        <div class="row justify-content-center mt-3 d-none d-md-flex main-div">
+          <div class="col-md-3 mb-3">
+            <div class="card shadow-sm mx-auto" style="width: 18rem;">
+              <img src="assets/img/img-empresa.webp" class="card-img-top" style="height: 160px; object-fit: cover;"
+                alt="Feira de Santana">
+              <div class="card-body text-center d-flex flex-column justify-content-between p-2">
+                <h6 class="card-title">Cidade</h6>
+                <h5 class="card-title">Feira de Santana</h5>
+                <p class="card-text" style="font-size: 0.95rem;">Av. Pres. Dutra, 1567<br>Capuchinhos, Feira de Santana
+                  - BA</p>
                 <div class="d-grid gap-2">
                   <a href="feira.html" class="btn btn-equipamentos">Equipamentos</a>
                   <a href="http://wa.me/5575992366796?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
@@ -90,12 +105,15 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-4">
-            <div class="card shadow-lg">
-              <img src="assets/img/saj.png" class="card-img-top" alt="Santo Antônio de Jesus">
-              <div class="card-body">
-                <h3 class="card-title">Santo Antônio de Jesus</h3>
-                <p class="card-text">Av. Ver. João Silva, 801<br>Amparo, Santo Antônio de Jesus - BA</p>
+          <div class="col-md-3 mb-3">
+            <div class="card shadow-sm mx-auto" style="width: 18rem;">
+              <img src="assets/img/saj.png" class="card-img-top" style="height: 160px; object-fit: cover;"
+                alt="Santo Antônio de Jesus">
+              <div class="card-body text-center d-flex flex-column justify-content-between p-2">
+                <h6 class="card-title">Cidade</h6>
+                <h5 class="card-title">St. Antônio de Jesus</h5>
+                <p class="card-text" style="font-size: 0.95rem;">Av. Ver. João Silva, 801<br>Amparo, Santo Antônio de
+                  Jesus - BA</p>
                 <div class="d-grid gap-2">
                   <a href="saj.html" class="btn btn-equipamentos">Equipamentos</a>
                   <a href="https://wa.me/5575999998888" target="_blank" class="btn btn-success">
@@ -106,56 +124,10 @@
             </div>
           </div>
         </div>
-
-        <div class="d-md-none mt-5">
-          <div id="unidadesCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="card shadow-lg">
-                  <img src="assets/img/img-empresa.webp" class="card-img-top" alt="Feira de Santana">
-                  <div class="card-body">
-                    <h3 class="card-title">Feira de Santana</h3>
-                    <p class="card-text">Av. Pres. Dutra, 1567<br>Capuchinhos, Feira de Santana - BA</p>
-                    <div class="d-grid gap-2">
-                      <a href="feira.html" class="btn btn-equipamentos">Equipamentos</a>
-                      <a href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-                        target="_blank" class="btn btn-success">
-                        <i class="fa-brands fa-whatsapp"></i> Contato
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="card shadow-lg">
-                  <img src="assets/img/saj.png" class="card-img-top" alt="Santo Antônio de Jesus">
-                  <div class="card-body">
-                    <h3 class="card-title">Santo Antônio de Jesus</h3>
-                    <p class="card-text">Av. Ver. João Silva, 801<br>Amparo, Santo Antônio de Jesus - BA</p>
-                    <div class="d-grid gap-2">
-                      <a href="saj.html" class="btn btn-equipamentos">Equipamentos</a>
-                      <a href="https://wa.me/5575999998888" target="_blank" class="btn btn-success">
-                        <i class="fa-brands fa-whatsapp"></i> Contato
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- Controles do carrossel -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#unidadesCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#unidadesCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Próximo</span>
-            </button>
-          </div>
-        </div>
       </div>
     </div>
   </section>
+
 
   <!-- SOBRE -->
   <section class="page-section bg-primary text-white mb-0" id="about">

@@ -13120,8 +13120,8 @@ html {
 
 /* Fundo da sessão hero */
 .hero-index {
-  min-height: 100vh;
-  background: url('../assets/img/bg-img-store.jpg') no-repeat center top fixed;
+  min-height: 600px;
+  background: url('../assets/img/intro-1920x900.png') no-repeat center top fixed;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -13131,9 +13131,7 @@ html {
 }
 
 .hero-index .overlay {
-  /* Remova position: absolute */
   width: 100%;
-  min-height: 100vh;
   background: rgba(0, 0, 0, 0.8);
   z-index: 2;
   display: flex;
@@ -13141,7 +13139,6 @@ html {
   justify-content: center;
   pointer-events: none;
   padding: 0;
-  /* Remova top, left, height: 100% */
 }
 
 .hero-index .main-div {
@@ -13151,6 +13148,10 @@ html {
   /* Permite interação normalmente */
 }
 
-#about {
+.hero-index-margin-top-h1 {
+  margin-top: 85px;
+}
+
+.about {
   margin-top: 3rem;
 }

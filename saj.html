@@ -58,20 +58,15 @@
           </li>
         </ul>
         <!-- BTN: JUST DESKTOP -->
-        <div class="btn btn-outline-whatsapp mx-1 d-none d-md-block">
-
-          <a href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-            style=" text-decoration: none;" class="mt-auto text-white" target="_blank">
-            <i class="fa-brands fa-whatsapp"></i> Fale conosco
-          </a>
-
+        <div class="btn btn-outline-whatsapp mx-1 d-none d-md-block" data-bs-toggle="modal" data-bs-target="#wppModal">
+          <i class="fa-brands fa-whatsapp"></i> <b>Fale conosco</b>
         </div>
       </div>
-      <div class="btn btn-outline-whatsapp btn-social mx-1 wpp-floating wpp-desktop">
-        <a href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
-          style=" text-decoration: none;" class="mt-auto text-white" target="_blank">
-          <i class="fa-brands fa-whatsapp"></i>
-        </a>
+      <div class="btn btn-outline-whatsapp btn-social mx-1 wpp-floating wpp-desktop" data-bs-toggle="modal"
+        data-bs-target="#wppModal">
+        <!-- <a href="#unidades" style="text-decoration: none; color: white;"> -->
+        <i class="fa-brands fa-whatsapp"></i>
+        <!-- </a> -->
       </div>
     </div>
   </nav>
@@ -86,7 +81,7 @@
         </div>
         <!-- WPP BTN -->
         <div class="text-center mt-4 text-wrap">
-          <div class="btn btn-xl-whatsapp btn-outline-whatsapp">
+          <div class="btn btn-xl-whatsapp btn-outline-whatsapp" data-bs-toggle="modal" data-bs-target="#wppModal">
             <!-- <a href="#unidades" style="text-decoration: none; color: white;"> -->
             <i class="fa-brands fa-whatsapp"></i>
             Faça seu orçamento
@@ -180,7 +175,7 @@
   </section>
 
   <!-- SOBRE -->
-  <section class="page-section bg-primary text-white mb-0" id="about">
+  <section class="page-section bg-primary text-white mb-0 about" id="about">
     <div class="container">
       <!-- ABOUT SECTION HEADER -->
       <h2 class="page-section-heading text-center text-uppercase text-white">Sobre a FeiraMaq</h2>
@@ -319,7 +314,7 @@
       <!-- CONTACT BTN -->
       <div class="row justify-content-center">
         <!-- WPP BTN -->
-        <div class="text-center mt-4 text-wrap">
+        <div class="text-center mt-4 text-wrap" data-bs-toggle="modal" data-bs-target="#wppModal">
           <div class="btn btn-xl-whatsapp btn-outline-whatsapp">
             <i class="fa-brands fa-whatsapp"></i>
             Entre em contato
@@ -375,6 +370,7 @@
                 <div class="card mx-auto" style="width: 90%;">
                   <img src="assets/img/img-empresa.webp" class="card-img-top" alt="Loja Feira de Santana">
                   <div class="card-body text-center d-flex flex-column justify-content-between">
+                    <h6 class="card-title">Cidade</h6>
                     <h5 class="card-title">Feira de Santana</h5>
                     <p class="card-text">Av. Pres. Dutra, 1567<br>Capuchinhos, Feira de Santana
                       - BA</p>
@@ -391,6 +387,7 @@
                 <div class="card mx-auto" style="width: 90%;">
                   <img src="assets/img/saj.png" class="card-img-top" alt="Loja Santo Antônio de Jesus">
                   <div class="card-body text-center d-flex flex-column justify-content-between">
+                    <h6 class="card-title">Cidade</h6>
                     <h5 class="card-title">St. Antônio de Jesus</h5>
                     <p class="card-text">Av. Ver. João Silva, 801<br>Amparo, Santo Antônio de
                       Jesus - BA</p>
@@ -420,6 +417,7 @@
           <div class="card shadow-sm" style="width: 18rem;">
             <img src="assets/img/img-empresa.webp" class="card-img-top" alt="Loja Feira de Santana">
             <div class="card-body text-center d-flex flex-column justify-content-between">
+              <h6 class="card-title">Cidade</h6>
               <h5 class="card-title">Feira de Santana</h5>
               <p class="card-text">Av. Pres. Dutra, 1567<br>Capuchinhos, Feira de Santana - BA</p>
               <a href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
@@ -433,6 +431,7 @@
           <div class="card shadow-sm" style="width: 18rem;">
             <img src="assets/img/saj.png" class="card-img-top" alt="Loja Santo Antônio de Jesus">
             <div class="card-body text-center d-flex flex-column justify-content-between">
+              <h6 class="card-title">Cidade</h6>
               <h5 class="card-title">St. Antônio de Jesus</h5>
               <p class="card-text">Av. Ver. João Silva, 801<br>Amparo, Santo Antônio de Jesus - BA</p>
               <a href="http://wa.me/5575981009999?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento%2C%20pode%20me%20ajudar%3F"
@@ -595,6 +594,7 @@
                       <div class="card mx-auto" style="width: 90%;">
                         <img src="assets/img/img-empresa.webp" class="card-img-top" alt="Loja Feira de Santana">
                         <div class="card-body text-center d-flex flex-column justify-content-between">
+                          <h6 class="card-title">Cidade</h6>
                           <h5 class="card-title">Feira de Santana</h5>
                           <p class="card-text">Av. Pres. Dutra, 1567<br>Capuchinhos, Feira de
                             Santana
@@ -612,6 +612,7 @@
                       <div class="card mx-auto" style="width: 90%;">
                         <img src="assets/img/saj.png" class="card-img-top" alt="Loja Santo Antônio de Jesus">
                         <div class="card-body text-center d-flex flex-column justify-content-between">
+                          <h6 class="card-title">Cidade</h6>
                           <h5 class="card-title">St. Antônio de Jesus</h5>
                           <p class="card-text">Av. Ver. João Silva, 801<br>Amparo, Santo
                             Antônio de
@@ -645,6 +646,7 @@
                 <div class="card shadow-sm" style="width: 18rem;">
                   <img src="assets/img/img-empresa.webp" class="card-img-top" alt="Loja Feira de Santana">
                   <div class="card-body text-center d-flex flex-column justify-content-between">
+                    <h6 class="card-title">Cidade</h6>
                     <h5 class="card-title">Feira de Santana</h5>
                     <p class="card-text">Av. Pres. Dutra, 1567<br>Capuchinhos, Feira de Santana - BA
                     </p>
@@ -659,6 +661,7 @@
                 <div class="card shadow-sm" style="width: 18rem;">
                   <img src="assets/img/saj.png" class="card-img-top" alt="Loja Santo Antônio de Jesus">
                   <div class="card-body text-center d-flex flex-column justify-content-between">
+                    <h6 class="card-title">Cidade</h6>
                     <h5 class="card-title">St. Antônio de Jesus</h5>
                     <p class="card-text">Av. Ver. João Silva, 801<br>Amparo, Santo Antônio de Jesus
                       - BA</p>

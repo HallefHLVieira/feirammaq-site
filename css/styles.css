@@ -13152,6 +13152,12 @@ html {
   margin-top: 85px;
 }
 
+.hero-index .main-div,
+.hero-index .carousel,
+.hero-index .carousel * {
+  pointer-events: auto;
+}
+
 .about {
   margin-top: 3rem;
 }
